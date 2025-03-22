@@ -1,3 +1,7 @@
 # Ignorar archivos de caché de Python
 __pycache__/
 *.pyc
+
+# Ignorar archivos de reportes y assets
+assets/
+report.html
