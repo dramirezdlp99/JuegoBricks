@@ -64,4 +64,9 @@ pytest --version
 ```
 pytest 8.3.5
 ```
+---
+
+## 👤 Autor
+- **Nombre:** David Fernando Ramírez de la Parra
+- **GitHub:** dramirezdlp99(https://github.com/dramirezdlp99)
 
