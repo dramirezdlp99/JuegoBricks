@@ -17,9 +17,9 @@ def generate_test_file(module_name):
     """Genera un archivo de prueba unitaria para un módulo dado dentro de src/."""
     test_file = os.path.join(TEST_DIR, f"test_{module_name}.py")
     
-    # Si el archivo de prueba ya existe, no hacer nada
+    # Si el archivo de prueba ya existe, mostrar un "visto verde" (✅)
     if os.path.exists(test_file):
-        print(f"✔ {test_file} ya existe. No se generó nuevamente.")
+        print(f"✅ Archivo de prueba ya existe: {test_file}")
         return
 
     # Crear el código base del test
